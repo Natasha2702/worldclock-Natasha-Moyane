@@ -12,6 +12,13 @@ background: ghostwhite;
 padding: 60px;
 border-radius: 20px;}
 
+.city{display: flex;
+justify-content: space-between;
+margin:  20px 0;
+border-bottom: dashed gainsboro;}
+
+.city:last-child{border:none;}
+
 .cities{display: flex;
 justify-content: space-between;
 margin:  20px 0;
@@ -22,7 +29,7 @@ border-bottom: dashed gainsboro;}
 h2{margin-top:10px;
 font-size: 25px;}
 
-.time{font-size: 45px;
+.time{font-size: 42px;
 font-weight: bold;
 margin-top: 18px;
 }
